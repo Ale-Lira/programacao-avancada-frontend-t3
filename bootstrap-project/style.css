@@ -1,0 +1,151 @@
+/* Geral */
+
+body {
+  font-family: 'Merriweather', sans-serif;
+}
+
+.container-fluid {
+  padding: 70px 0;
+}
+
+.row {
+  margin: 0;
+}
+
+/* Listas e Linhas */
+
+p, li {
+  color: #212121;
+  font-size: 14px;
+}
+
+#about-list {
+  list-style: none;
+  padding: 0;
+}
+
+#about-list i {
+  color: #0b7b9e;
+  margin-right: 15px;
+}
+
+#about-list li {
+  line-height: 30px;
+}
+
+/*   */
+#about-area {
+  background-color: #f2f3f4;
+}
+
+.main-title {
+  text-align: center;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  color: #212121;
+  position: relative;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to right, #0b7b9e, #212121);
+  border-image-slice: 1;
+  position: absolute;
+  width: 10%;
+  top: 50px;
+  left: 45%;
+  
+}
+.title-uppercase {
+  color: #212121;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* Serviços */
+
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i {
+  font-size:46px;
+  margin-bottom: 20px;
+  color: #212121;
+}
+
+.service-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-box:hover > i, .service-box:hover > h3{
+  color: #0b7b9e;
+}
+
+.service-box i,.service-box h3 {
+  transition: 1s;
+
+}
+
+/* Serviços */
+
+/* Dados */
+#data-area {
+  
+}
+#data-area p {
+  font-size: 20px;
+  color: #f2f3f4;
+}
+
+/* Time */
+
+#team-area .card {
+  background-color: transparent;
+}
+
+#team-area .card:hover {
+  background-color: #dddace;
+}
+
+
+/* Trabalhe Conosco */
+#apply-area {
+  height: 500px;
+
+}
+
+#apply-area .row, #apply-img, #apply-content {
+  height: 100%;
+}
+
+#apply-img {
+  background-image: url('assents/img/empresa.jpg');
+  background-size: cover;
+
+}
+
+
+
+#apply-content h4, #apply-content p {
+  color: white;
+}
+
+#apply-content h4 {
+  margin-top: 10%;
+}
+.btn{
+  width: 180px ;
+  border-color: white;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.btn:hover{
+  color: #212121;
+  background-color: white;
+  border-radius: 30px;
+}
+/* after */
